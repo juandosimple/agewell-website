@@ -1,3 +1,76 @@
-body{
-    background:red
+@font-face {
+    font-family: 'kollektifbold';
+    src: url('../fonts/kollektif-bold-webfont.woff2') format('woff2'),
+         url('../fonts/kollektif-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+}
+
+img{
+    border-radius: 10px;
+}
+
+/* General */
+h1,h2,h3,h4,h5,h6{
+    font-family: "kollektifbold",sans-serif;
+}
+/* General */
+/* Navigation */
+.menu-container{
+    background-color: #1876F4;
+}
+.navbar-expand-lg .navbar-collapse, .bg-body-tertiary{
+    justify-content: center;
+    background-color: #1876F4!important;
+}
+.navbar-expand-lg .navbar-collapse li a{
+    color: #fff!important;
+}
+
+/* Navigation */
+
+/* Footer */
+footer p{
+    padding:2rem;
+    font-size: .8rem;
+    text-align: center;
+    color:#9b9b9b
+}
+/* Footer */
+
+.custom-shape-divider-top-1701193454 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1701193454 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 208px;
+}
+
+.custom-shape-divider-top-1701193454 .shape-fill {
+    fill: #FFFFFF;
+}
+
+#custom-cards .col{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#custom-cards img{
+    max-width:120px;
+}
+#custom-cards #erasmus img{
+    max-width:170px;
 }
