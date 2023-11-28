@@ -1,45 +1,54 @@
 @font-face {
     font-family: 'kollektifbold';
     src: url('../fonts/kollektif-bold-webfont.woff2') format('woff2'),
-         url('../fonts/kollektif-bold-webfont.woff') format('woff');
+        url('../fonts/kollektif-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
-body {
-}
+body {}
 
-img{
+img {
     border-radius: 10px;
 }
 
 /* General */
-h1,h2,h3,h4,h5,h6{
-    font-family: "kollektifbold",sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "kollektifbold", sans-serif;
 }
+
 /* General */
 /* Navigation */
-.menu-container{
+.menu-container {
     background-color: #1876F4;
 }
-.navbar-expand-lg .navbar-collapse, .bg-body-tertiary{
+
+.navbar-expand-lg .navbar-collapse,
+.bg-body-tertiary {
     justify-content: center;
-    background-color: #1876F4!important;
+    background-color: #1876F4 !important;
 }
-.navbar-expand-lg .navbar-collapse li a{
-    color: #fff!important;
+
+.navbar-expand-lg .navbar-collapse li a {
+    color: #fff !important;
 }
 
 /* Navigation */
 
 /* Footer */
-footer p{
-    padding:2rem;
+footer p {
+    padding: 2rem;
     font-size: .8rem;
     text-align: center;
-    color:#9b9b9b
+    color: #9b9b9b
 }
+
 /* Footer */
 
 .custom-shape-divider-top-1701193454 {
@@ -63,14 +72,29 @@ footer p{
     fill: #FFFFFF;
 }
 
-#custom-cards .col{
+#custom-cards .col {
     align-items: center;
     display: flex;
     justify-content: center;
 }
-#custom-cards img{
-    max-width:120px;
+
+#custom-cards img {
+    max-width: 120px;
 }
-#custom-cards #erasmus img{
-    max-width:170px;
+
+#custom-cards #erasmus img {
+    max-width: 170px;
 }
+
+
+/*RESPONSIVE*/
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    
+    .image-background{
+        background-position:center;
+        background-size:cover
+    }
+
+}
+/*RESPONSIVE*/
