@@ -76,15 +76,20 @@ footer p {
     align-items: center;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+
+#custom-cards .col span{
+    font-size: .8rem;
+    text-align: center;
+    font-weight: bold;
 }
 
 #custom-cards img {
     max-width: 120px;
 }
 
-#custom-cards #erasmus img {
-    max-width: 170px;
-}
+
 
 
 /*RESPONSIVE*/
